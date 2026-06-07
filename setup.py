@@ -25,6 +25,11 @@ setup(
     entry_points={
         'console_scripts': [
 		'hello_node = my_robot.hello_node:main',
+        'publisher_node = my_robot.publisher_node:main'
+        ,
+        'subscriber_node = my_robot.subscriber_node:main'
+
+
         ],
     },
 )
