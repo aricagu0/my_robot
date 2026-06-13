@@ -27,7 +27,10 @@ setup(
 		'hello_node = my_robot.hello_node:main',
         'publisher_node = my_robot.publisher_node:main'
         ,
-        'subscriber_node = my_robot.subscriber_node:main'
+        'subscriber_node = my_robot.subscriber_node:main',
+        'service_server = my_robot.service_server:main',
+        'service_client = my_robot.service_client:main',
+        'action_server = my_robot.action_server:main'
 
 
         ],

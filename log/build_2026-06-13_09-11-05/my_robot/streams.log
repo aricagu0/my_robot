@@ -1,0 +1,53 @@
+[0.442s] Invoking command in '/home/ros/ros_ws/src/my_robot': PYTHONPATH=/home/ros/ros_ws/src/my_robot/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros_ws/src/my_robot/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/my_robot build --build-base /home/ros/ros_ws/src/my_robot/build/my_robot/build install --record /home/ros/ros_ws/src/my_robot/build/my_robot/install.log --single-version-externally-managed install_data
+[0.563s] running egg_info
+[0.563s] creating build/my_robot/my_robot.egg-info
+[0.563s] writing build/my_robot/my_robot.egg-info/PKG-INFO
+[0.563s] writing dependency_links to build/my_robot/my_robot.egg-info/dependency_links.txt
+[0.564s] writing entry points to build/my_robot/my_robot.egg-info/entry_points.txt
+[0.564s] writing requirements to build/my_robot/my_robot.egg-info/requires.txt
+[0.564s] writing top-level names to build/my_robot/my_robot.egg-info/top_level.txt
+[0.564s] writing manifest file 'build/my_robot/my_robot.egg-info/SOURCES.txt'
+[0.564s] reading manifest file 'build/my_robot/my_robot.egg-info/SOURCES.txt'
+[0.565s] writing manifest file 'build/my_robot/my_robot.egg-info/SOURCES.txt'
+[0.565s] running build
+[0.565s] running build_py
+[0.565s] creating /home/ros/ros_ws/src/my_robot/build/my_robot/build
+[0.565s] creating /home/ros/ros_ws/src/my_robot/build/my_robot/build/lib
+[0.566s] creating /home/ros/ros_ws/src/my_robot/build/my_robot/build/lib/my_robot
+[0.566s] copying my_robot/__init__.py -> /home/ros/ros_ws/src/my_robot/build/my_robot/build/lib/my_robot
+[0.566s] copying my_robot/publisher_node.py -> /home/ros/ros_ws/src/my_robot/build/my_robot/build/lib/my_robot
+[0.566s] copying my_robot/hello_node.py -> /home/ros/ros_ws/src/my_robot/build/my_robot/build/lib/my_robot
+[0.566s] copying my_robot/subscriber_node.py -> /home/ros/ros_ws/src/my_robot/build/my_robot/build/lib/my_robot
+[0.566s] copying my_robot/service_client.py -> /home/ros/ros_ws/src/my_robot/build/my_robot/build/lib/my_robot
+[0.566s] copying my_robot/service_server.py -> /home/ros/ros_ws/src/my_robot/build/my_robot/build/lib/my_robot
+[0.567s] running install
+[0.567s] running install_lib
+[0.567s] creating /home/ros/ros_ws/src/my_robot/install/my_robot/lib/python3.10/site-packages/my_robot
+[0.567s] copying /home/ros/ros_ws/src/my_robot/build/my_robot/build/lib/my_robot/__init__.py -> /home/ros/ros_ws/src/my_robot/install/my_robot/lib/python3.10/site-packages/my_robot
+[0.568s] copying /home/ros/ros_ws/src/my_robot/build/my_robot/build/lib/my_robot/publisher_node.py -> /home/ros/ros_ws/src/my_robot/install/my_robot/lib/python3.10/site-packages/my_robot
+[0.568s] copying /home/ros/ros_ws/src/my_robot/build/my_robot/build/lib/my_robot/hello_node.py -> /home/ros/ros_ws/src/my_robot/install/my_robot/lib/python3.10/site-packages/my_robot
+[0.568s] copying /home/ros/ros_ws/src/my_robot/build/my_robot/build/lib/my_robot/subscriber_node.py -> /home/ros/ros_ws/src/my_robot/install/my_robot/lib/python3.10/site-packages/my_robot
+[0.568s] copying /home/ros/ros_ws/src/my_robot/build/my_robot/build/lib/my_robot/service_client.py -> /home/ros/ros_ws/src/my_robot/install/my_robot/lib/python3.10/site-packages/my_robot
+[0.568s] copying /home/ros/ros_ws/src/my_robot/build/my_robot/build/lib/my_robot/service_server.py -> /home/ros/ros_ws/src/my_robot/install/my_robot/lib/python3.10/site-packages/my_robot
+[0.568s] byte-compiling /home/ros/ros_ws/src/my_robot/install/my_robot/lib/python3.10/site-packages/my_robot/__init__.py to __init__.cpython-310.pyc
+[0.568s] byte-compiling /home/ros/ros_ws/src/my_robot/install/my_robot/lib/python3.10/site-packages/my_robot/publisher_node.py to publisher_node.cpython-310.pyc
+[0.568s] byte-compiling /home/ros/ros_ws/src/my_robot/install/my_robot/lib/python3.10/site-packages/my_robot/hello_node.py to hello_node.cpython-310.pyc
+[0.569s] byte-compiling /home/ros/ros_ws/src/my_robot/install/my_robot/lib/python3.10/site-packages/my_robot/subscriber_node.py to subscriber_node.cpython-310.pyc
+[0.569s] byte-compiling /home/ros/ros_ws/src/my_robot/install/my_robot/lib/python3.10/site-packages/my_robot/service_client.py to service_client.cpython-310.pyc
+[0.569s] byte-compiling /home/ros/ros_ws/src/my_robot/install/my_robot/lib/python3.10/site-packages/my_robot/service_server.py to service_server.cpython-310.pyc
+[0.569s] running install_data
+[0.569s] creating /home/ros/ros_ws/src/my_robot/install/my_robot/share/ament_index
+[0.569s] creating /home/ros/ros_ws/src/my_robot/install/my_robot/share/ament_index/resource_index
+[0.569s] creating /home/ros/ros_ws/src/my_robot/install/my_robot/share/ament_index/resource_index/packages
+[0.569s] copying resource/my_robot -> /home/ros/ros_ws/src/my_robot/install/my_robot/share/ament_index/resource_index/packages
+[0.569s] copying package.xml -> /home/ros/ros_ws/src/my_robot/install/my_robot/share/my_robot
+[0.569s] running install_egg_info
+[0.571s] Copying build/my_robot/my_robot.egg-info to /home/ros/ros_ws/src/my_robot/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info
+[0.571s] running install_scripts
+[0.582s] Installing hello_node script to /home/ros/ros_ws/src/my_robot/install/my_robot/lib/my_robot
+[0.582s] Installing publisher_node script to /home/ros/ros_ws/src/my_robot/install/my_robot/lib/my_robot
+[0.582s] Installing service_client script to /home/ros/ros_ws/src/my_robot/install/my_robot/lib/my_robot
+[0.582s] Installing service_server script to /home/ros/ros_ws/src/my_robot/install/my_robot/lib/my_robot
+[0.583s] Installing subscriber_node script to /home/ros/ros_ws/src/my_robot/install/my_robot/lib/my_robot
+[0.583s] writing list of installed files to '/home/ros/ros_ws/src/my_robot/build/my_robot/install.log'
+[0.594s] Invoked command in '/home/ros/ros_ws/src/my_robot' returned '0': PYTHONPATH=/home/ros/ros_ws/src/my_robot/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros_ws/src/my_robot/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/my_robot build --build-base /home/ros/ros_ws/src/my_robot/build/my_robot/build install --record /home/ros/ros_ws/src/my_robot/build/my_robot/install.log --single-version-externally-managed install_data
